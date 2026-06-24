@@ -3,7 +3,7 @@ layout: index
 title: "Blog do Mosca"
 ---
 
-Sou especialista em começar e abandonar hobbies e esse site é onde falo sobre eles.
+Olá, eu sou Filipe! Sou médico,  atualmente realizando a residência (especialização) de clínica médica. Esse é meu espaço na internet para compartilhar meus hobbies e escrever sobre a medicina.
 
 - [Jogos de tabuleiro](/boardgames/jogos-tabuleiro)
 - [Jogos de baralho](/boardgames/baralho)
