@@ -1,6 +1,6 @@
-url: "mosca.me" # the base hostname & protocol for your site, e.g. http://example.com
+url: "mosca.net.br" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "Jardim do Mosca" # the name of your site, e.g. ACME Corp.
+title: "Blog do Mosca" # the name of your site, e.g. ACME Corp.
 
 defaults:
   -
@@ -8,3 +8,5 @@ defaults:
       path: "" # aplica a todo o site
     values:
       layout: default
+
+permalink: /:year/:title/
