@@ -1,0 +1,58 @@
+body {
+  color: black;
+  background-color: hsl(48, 33.3%, 97.1%);
+  font-family: Arial, Sans;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#logo {
+  max-width: 400px;
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 900px;
+  width: 100%;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.footnotes {
+  font-size: 85%;
+}
+.footnotes p {
+  margin: 4px;
+}
+
+h1, h2, h3 {
+  margin-bottom: 5px;
+}
+
+p {
+  margin-top: 0;
+}
+
+code {
+  padding: 1px 5px;
+  border: 1px solid #abc1b9;
+  border-radius: 3px;
+  font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
+  background-color: #def2ef;
+}
+
+form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.foot, .post-date {
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */
