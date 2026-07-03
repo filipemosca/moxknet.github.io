@@ -14,4 +14,4 @@ defaults:
     values:
       category: medicina
 
-permalink: /:year/:title/
+permalink: /:title
