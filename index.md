@@ -3,13 +3,15 @@ layout: index
 title: "Blog do Mosca"
 ---
 
+<img src="/blog-do-mosca.png" alt="" style="max-width: 500px;">
+
 Olá, eu sou Filipe! Sou médico,  atualmente realizando a residência (especialização) de clínica médica. Esse é meu espaço na internet para compartilhar meus hobbies e escrever sobre a medicina.
 
 - [Jogos de tabuleiro](/boardgames/jogos-tabuleiro)
 - [Jogos de baralho](/boardgames/baralho)
 - Aprendendo a digitar mais rápido: [TypingClub](https://www.edclub.com/sportal/program-21.game)
 
-## Postagens
+## Todas as postagens
 
 <ul>
   {% for post in site.posts %}

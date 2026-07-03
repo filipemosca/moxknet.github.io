@@ -8,5 +8,10 @@ defaults:
       path: "" # aplica a todo o site
     values:
       layout: default
+  -
+    scope:
+      path: "/medicina"
+    values:
+      category: medicina
 
 permalink: /:year/:title/
