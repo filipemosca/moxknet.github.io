@@ -2,4 +2,4 @@
 title: Sobre
 ---
 
-Depois escrevo aqui alguma coisa.
+Em breve escrevo aqui.
