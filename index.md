@@ -17,6 +17,9 @@ Olá, eu sou Filipe! Sou médico,  atualmente realizando a residência (especial
       <li>
         <span>{{ post.date | date: "%d/%m/%Y" }}</span>
         <a href="{{ post.url }}">{{ post.title }}</a>
+        <span style="font-size: 0.8em; color: gray">
+          {% for tag in post.tags %}#{{ tag }} {% endfor %}
+        </span>
       </li>
     {% endunless %}
   {% endfor %}
