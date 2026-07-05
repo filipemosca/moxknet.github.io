@@ -1,6 +1,6 @@
 ﻿---
-title: “Depressão profunda: Brasil mais uma vez cai pra primeira seleção europeia que aparece”
-tag: Futebol
+title: "Depressão profunda: Brasil mais uma vez cai pra primeira seleção europeia que aparece"
+tags: Futebol CopaDoMundo
 ---
 
 
