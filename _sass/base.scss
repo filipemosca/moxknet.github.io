@@ -25,6 +25,29 @@ ul li::before {
   margin-right: 6px;
 }
 
+.feed li {
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+.data {
+  color: gray;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.categoria {
+  background-color: #e9fbe6;
+  border-radius: 10%;
+  color: gray;
+  font-size: 0.8em;
+    font-weight: bold;
+}
+.tag {
+    background-color: #feedeb;
+    border-radius: 10%;
+    color: gray;
+    font-size: 0.8em;
+}
+
 
 img {
   max-width: 900px;
@@ -61,8 +84,6 @@ form {
 .foot, .post-date {
   text-align: center;
 }
-
-
 
 
 

@@ -13,16 +13,20 @@ Olá, eu sou Filipe! Sou médico,  atualmente realizando a residência (especial
 
 ## Todas as postagens
 
-<ul>
+<ul class="feed">
   {% for post in site.posts %}
-    {% unless post.path contains "medruas" %}
       <li>
-        <span>{{ post.date | date: "%d/%m/%Y" }}</span>
+        <span class="data">{{ post.date | date: "%d/%m/%Y" }}</span>
+        {% if post.categories.size > 0 %}
+        {% for category in post.categories %}
+        <span class="categoria">#{{ category | capitalize }}</span>
+        {% endfor %}
+        {% endif %} 
+        {% for tag in post.tags %}
+        <span class="tag">#{{ tag | capitalize  }}</span>
+         {% endfor %}
+        <br> 
         <a href="{{ post.url }}">{{ post.title }}</a>
-        <span style="font-size: 0.8em; color: gray">
-          {% for tag in post.tags %}#{{ tag }} {% endfor %}
-        </span>
       </li>
-    {% endunless %}
   {% endfor %}
 </ul>

@@ -1,0 +1,146 @@
+@charset "UTF-8";
+body {
+  color: black;
+  background-color: hsl(48, 33.3%, 97.1%);
+  font-family: Arial, Sans;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#logo {
+  max-width: 400px;
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none; /* remove o marcador padrão */
+  padding-left: 1.2em;
+}
+
+ul li::before {
+  content: "•"; /* símbolo do bullet */
+  color: red; /* cor desejada */
+  margin-right: 6px;
+}
+
+.feed li {
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+.data {
+  color: gray;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.categoria {
+  background-color: #e9fbe6;
+  border-radius: 10%;
+  color: gray;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.tag {
+  background-color: #feedeb;
+  border-radius: 10%;
+  color: gray;
+  font-size: 0.8em;
+}
+
+img {
+  max-width: 900px;
+  width: 100%;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.footnotes {
+  font-size: 85%;
+}
+.footnotes p {
+  margin: 4px;
+}
+
+h1, h2, h3 {
+  margin-bottom: 5px;
+}
+
+p {
+  margin-top: 0;
+}
+
+code {
+  padding: 1px 5px;
+  border: 1px solid #abc1b9;
+  border-radius: 3px;
+  font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
+  background-color: #def2ef;
+}
+
+form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.foot, .post-date {
+  text-align: center;
+}
+
+/* LISTA DE POSTAGENS!!! */
+.posts {
+  list-style-type: none;
+  padding: 0;
+}
+.posts li {
+  margin-bottom: 10px;
+}
+.posts li::before {
+  content: none !important; /* remove o bullet customizado */
+}
+
+.post-title {
+  font-weight: bold;
+  text-decoration: none;
+  color: blue;
+}
+
+.post-title:hover {
+  color: #097f89;
+  text-decoration: underline;
+}
+
+.posts-dates {
+  color: rgb(171, 9, 47);
+}
+
+/* Em telas grandes: o break não ocupa espaço => sem quebra */
+.break {
+  display: none;
+}
+
+/* Em telas pequenas: o break vira um bloco => força quebra */
+@media (max-width: 800px) {
+  .break {
+    display: block;
+  }
+  .posts-dates {
+    font-size: small;
+  }
+}
+.novo-badge {
+  background: yellow;
+  color: #2246ca;
+  font-size: 0.75rem;
+  padding: 2px 6px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -3,15 +3,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "Blog do Mosca" # the name of your site, e.g. ACME Corp.
 
 defaults:
-  -
-    scope:
-      path: "" # aplica a todo o site
+  - scope:
+      path: ""
     values:
       layout: default
-  -
-    scope:
-      path: "/medicina"
+  - scope:
+      path: "medicina"
+      type: "posts"
     values:
-      category: medicina
+      categories: ["medicina"]
 
 permalink: /:year/:title/
